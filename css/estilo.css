@@ -1,0 +1,82 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1{
+    background-color: #282a36; /* cor de fundo */
+    color:#f8f8f2; /* cor de texto */
+    text-align: center; /* alinhamento */
+    margin: 0;
+}
+
+.icone{ /* HTML +> <img class="icone" ... > */
+    width: 50px; 
+}
+
+#conteudo{ /* HTML +> <div id="conteudo" ... > */
+   background-color: #b4d7ee; 
+   width: 800px;
+   margin: 16px auto;
+   border-radius: 16px;
+   padding: 8px;    
+}
+
+h2{
+    border-left: solid 4px chocolate; /* tipo da linha ; largura ; cor*/
+    padding-left: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+ul,ol{ /* estiliza tanto ul quanto ol */
+    margin-left: 16px;
+}
+
+/* menu */
+
+nav li{
+    display: inline-block;
+    margin: 4px;
+}
+nav ul{
+    margin-left: 0px;
+}
+nav{
+    width: 800px;
+    margin:16px auto;
+    background-color: #282a36;
+    border-radius: 16px;
+    text-align: center;
+}
+nav a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+    border-radius: 8px;
+}
+nav a:hover{
+    background-color: white;
+    color:#282a36;
+}
+
+/* video */
+audio,video{
+    width: 90%;
+    display: block;
+    margin: 8px auto;
+}
+
+/* tabela */
+table,td,th{
+    border: 1px solid chocolate;
+    border-spacing: 0px;
+}
+
