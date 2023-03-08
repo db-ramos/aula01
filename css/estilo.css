@@ -54,6 +54,9 @@ nav{
     background-color: #282a36;
     border-radius: 16px;
     text-align: center;
+  
+    position: sticky;
+    top:0;
 }
 nav a{
     display: inline-block;
@@ -65,6 +68,8 @@ nav a{
 nav a:hover{
     background-color: white;
     color:#282a36;
+    transform: scale(1.2);
+    transition-duration: 0.5s;
 }
 
 /* video */
@@ -72,11 +77,26 @@ audio,video{
     width: 90%;
     display: block;
     margin: 8px auto;
+    border-radius: 16px;
 }
 
 /* tabela */
 table,td,th{
-    border: 1px solid chocolate;
+    border: 1px solid #282a36;
     border-spacing: 0px;
+    background-color: #282a362f;
+    text-align: center; /* centralizar o texto */
+    margin: 16px auto; /* centralizar a tabela */
+}
+th {
+    background-color: #282a3683;
+    color: rgba(255, 255, 255, 0.534);
+}
+td,th{
+    padding: 8px;
+}
+
+td:hover{
+    background-color: white;
 }
 
